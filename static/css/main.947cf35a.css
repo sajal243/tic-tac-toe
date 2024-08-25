@@ -1,0 +1,2 @@
+.App{text-align:center}.game{margin:auto;max-width:300px;padding:20px}.turn_reset{display:flex;justify-content:space-between;margin-bottom:20px;width:100%}.board{display:grid;grid-template-columns:repeat(3,1fr)}.board,.cell{justify-content:center}.cell{align-items:center;border:1px solid gray;cursor:pointer;display:flex;font-size:36px;height:100px;transition:background-color .3s ease-in-out;width:100px}.cell:hover{background-color:#d3d3d3}
+/*# sourceMappingURL=main.947cf35a.css.map*/
