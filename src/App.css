@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.game{
+  max-width: calc(3*100px);
+  padding:20px;
+  margin: auto;
+}
+
+.turn_reset{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.cell{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  font-size: 36px;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  border: 1px solid gray;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.cell:hover{
+  background-color: lightgrey;
+}
